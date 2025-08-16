@@ -173,6 +173,84 @@ Tabla 2: Ejemplos de archivos de salida y herramientas de análisis para las pri
 | **PacBio**        | `.bam`, `.h5`, `.fastq`                       | Lecturas largas y de alta fidelidad (HiFi)      |
 | **Nanopore**      | `.fast5`, `.fastq`, `.bam`, `.summary.txt`    | Lecturas muy largas, datos de señales crudas    |
 
+---
+
+# 🌐 Bases de datos genómicas y ómicas
+
+La bioinformática depende de **bases de datos** que almacenan, organizan y permiten explorar información genómica, transcriptómica y proteómica. Aquí se amplía la lista de recursos importantes:
+
+## 🔎 1. [NCBI (National Center for Biotechnology Information)](https://www.ncbi.nlm.nih.gov/)
+- Secuencias de ADN, ARN y proteínas.
+- Bases: **GenBank**, **RefSeq**, **SRA**, **PubMed**.
+- Herramientas: **BLAST**, **Genome Data Viewer**.
+
+## 🧬 2. [Ensembl Genome Browser](https://www.ensembl.org/)
+- Genomas de vertebrados y organismos modelo.
+- Datos de genes, transcritos, variantes y anotaciones funcionales.
+
+## 🧭 3. [UCSC Genome Browser](https://genome.ucsc.edu/)
+- Visualización genómica mediante **tracks personalizados**.
+- Información de SNPs, epigenética, transcriptómica y más.
+
+## 🧪 4. [UniProt](https://www.uniprot.org/)
+- Base de datos de secuencias y anotaciones de proteínas.
+- Información funcional, dominios, modificaciones post-traduccionales y enlaces a genomas.
+
+## 🧬 5. [KEGG (Kyoto Encyclopedia of Genes and Genomes)](https://www.genome.jp/kegg/)
+- Mapas de rutas metabólicas, redes de interacción y funciones de genes.
+- Permite conectar datos genómicos con procesos celulares.
+
+## 🧫 6. [PDB (Protein Data Bank)](https://www.rcsb.org/)
+- Estructuras tridimensionales de proteínas y ácidos nucleicos.
+- Información útil para modelado molecular y estudios de interacción.
+
+## 🔬 7. [GEO (Gene Expression Omnibus)](https://www.ncbi.nlm.nih.gov/geo/)
+- Base de datos de expresión génica y experimentos de transcriptómica.
+- Contiene microarrays y RNA-seq de múltiples organismos.
+
+## 📊 8. [ArrayExpress](https://www.ebi.ac.uk/arrayexpress/)
+- Base de datos de experimentos de expresión génica del EMBL-EBI.
+- Permite descargar datos brutos y normalizados.
+
+---
+
+# 📑 Comparación rápida de bases de datos
+
+| Base de datos | Tipo / Institución                       | Contenido principal                          | Fortalezas                                    |
+| ------------- | ---------------------------------------- | ------------------------------------------- | --------------------------------------------- |
+| **NCBI**      | Nacional Library of Medicine (EE.UU.)   | Secuencias genómicas y literatura           | Amplia cobertura y herramientas integradas    |
+| **Ensembl**   | EMBL-EBI & Wellcome Trust                | Genomas anotados y variantes                | Visualización detallada y comparativa         |
+| **UCSC**      | University of California, Santa Cruz     | Navegador genómico interactivo              | Flexibilidad en visualización y tracks       |
+| **UniProt**   | UniProt Consortium                       | Proteínas y anotaciones funcionales         | Datos integrados y curación manual           |
+| **KEGG**      | Kyoto University                         | Rutas metabólicas y redes génicas           | Relaciona genes con funciones y procesos     |
+| **PDB**       | Worldwide Protein Data Bank              | Estructuras de proteínas y ácidos nucleicos | Información estructural de alta calidad      |
+| **GEO**       | NCBI                                     | Expresión génica, microarrays y RNA-seq    | Gran cantidad de datos experimentales        |
+| **ArrayExpress** | EMBL-EBI                               | Datos transcriptómicos                       | Datos brutos y normalizados listos para análisis |
+
+---
+
+# 📝 Ejemplo práctico de búsqueda de un gen
+
+Supongamos que queremos buscar información sobre el gen humano **TP53**.
+
+1. **NCBI**:
+   - Ir a [https://www.ncbi.nlm.nih.gov/gene](https://www.ncbi.nlm.nih.gov/gene)
+   - Buscar `TP53` → Se obtiene información de localización, variantes, secuencias y literatura.
+2. **Ensembl**:
+   - Ir a [https://www.ensembl.org/Homo_sapiens/Gene/Summary?g=TP53](https://www.ensembl.org/Homo_sapiens/Gene/Summary?g=TP53)
+   - Visualizar transcritos, exones, proteínas y variantes.
+3. **UCSC Genome Browser**:
+   - Ir a [https://genome.ucsc.edu/](https://genome.ucsc.edu/)
+   - Seleccionar Human hg38, buscar `TP53` → Visualizar región genómica con todos los tracks disponibles.
+4. **UniProt**:
+   - Ir a [https://www.uniprot.org/uniprot/P04637](https://www.uniprot.org/uniprot/P04637)
+   - Revisar información de proteína, dominios funcionales y modificaciones. 
+5. **KEGG**:
+   - Ir a [https://www.genome.jp/dbget-bin/www_bget?hsa:7157](https://www.genome.jp/dbget-bin/www_bget?hsa:7157)
+   - Explorar la ruta metabólica y función en procesos celulares.
+6. **GEO** / **ArrayExpress**:
+   - Buscar experimentos con expresión de `TP53` en diferentes condiciones celulares y tejidos.
+
 
 ---
 ## 📌 Conclusión
