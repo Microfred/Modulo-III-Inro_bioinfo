@@ -17,7 +17,7 @@ Dogma central de DNA ¿quién se acuerda?
 
 ---
 
-## 📌 Contexto Histórico del Origen
+## 📌 Contexto Histórico del Origen de la [secuenciación](https://the-dna-universe.com/2020/11/02/a-journey-through-the-history-of-dna-sequencing/)
 
 ### 🔹 Antes de la era genómica (años 60–80)
 - En los **años 60 y 70**, los biólogos comenzaron a acumular secuencias de proteínas y ácidos nucleicos.
@@ -33,6 +33,7 @@ Dogma central de DNA ¿quién se acuerda?
 - Se inició en **1990**, con el objetivo de secuenciar los ~3,000 millones de pares de bases del genoma humano.
 - Para el año **2000**, ya se habían secuenciado grandes porciones del genoma, y en **2003** se anunció la versión final.
 - Este proyecto generó una **enorme cantidad de datos biológicos sin precedentes**, imposibles de analizar únicamente con métodos tradicionales de biología de laboratorio.
+  ![figura5.jpeg](figura5.jpeg)
 
 👉 Fue en este contexto donde la **bioinformática se consolidó como disciplina**:
 - Se necesitaban **bases de datos capaces de almacenar millones de secuencias**.
