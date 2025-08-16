@@ -8,8 +8,9 @@ CEO: Dra Fabiola Hernández-Martínez
 EGRESADA DE ENCB-IPN.
 
 #### Profesor invitado:
-Dr.  Juan Alfredo Hernández-García
+[Dr.  Juan Alfredo Hernández-García](https://www.researchgate.net/profile/Juan-Alfredo-Garcia?ev=hdr_xprf)
 Profesor de Microbiología general y Ciencias Genómicas.
+
 [Escuela Nacional de ciencias Biológicas](https://www.encb.ipn.mx/)
   
 ---
