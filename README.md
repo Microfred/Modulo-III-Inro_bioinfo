@@ -33,7 +33,7 @@ Este módulo te introduce al mundo de la bioinformática y su importancia genral
 * **1.3. Obtención de una secuencia de DNA:** ¿Cómo obtengo una secuencia de DNA?. ¿Cónoce a *SANGER*?. Etapa fundamental para obtener una secuencia de DNA.
 * **1.4. Tipos de datos moleculares:** secuencias génicas, secuencias genómicas, transcriptómicas y metagenómicas.
 * **1.5. Formatos de archivo más comunes:** .fasta, .ab1, .abi, .aln, .GenBank, .fastq.gz
-* **1.5. Las Bases de Datos Biológicas:** Conoce las "bibliotecas" digitales que almacenan toda la información genética del mundo.
+* **1.5. Las Bases de Datos Biológicas:** Conoce las "bibliotecas" digitales que almacenan toda la información genética del mundo. Algunas de las bases de datos más relevantes son: [NCBI](https://www.ncbi.nlm.nih.gov/), [SILVA](https://www.arb-silva.de/), [UNITE](https://unite.ut.ee/schedule_analysis.php), etc...
   
 ---
 
