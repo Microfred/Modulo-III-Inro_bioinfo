@@ -28,6 +28,9 @@ Su objetivo central es **transformar datos biológicos en conocimiento útil**, 
 - Se necesitaban **bases de datos capaces de almacenar millones de secuencias**.
 - Surgieron **algoritmos y software especializados** para búsqueda, ensamblaje y comparación de secuencias.
 - Se establecieron centros de información biológica como el **NCBI (National Center for Biotechnology Information)** en EE. UU., el **EMBL-EBI** en Europa y el **DDBJ** en Japón.
+- Fundamento de la secuenciación de [Sanger](https://genotipia.com/sanger/)
+  ![figura2.jpeg](figura2.jpeg)
+
 
 ---
 
