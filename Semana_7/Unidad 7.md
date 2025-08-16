@@ -13,6 +13,7 @@ Dogma central de DNA ¿quién se acuerda?
 
 
 ¿y de la PCR?...
+[figura4.jpeg](figura4.jpeg)
 
 ---
 
