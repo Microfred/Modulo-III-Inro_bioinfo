@@ -12,7 +12,7 @@ EGRESADA DE ENCB-IPN.
 [Dr.  Juan Alfredo Hernández-García](https://www.researchgate.net/profile/Juan-Alfredo-Garcia?ev=hdr_xprf)
 Profesor de Microbiología general y Ciencias Genómicas.
 
-[Escuela Nacional de ciencias Biológicas](https://www.encb.ipn.mx/)
+[Escuela Nacional de ciencias Biológicas-IPN](https://www.encb.ipn.mx/)
   
 ---
 
