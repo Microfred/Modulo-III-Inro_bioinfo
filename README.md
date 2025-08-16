@@ -4,7 +4,8 @@
 ## _*MODULO III: Introducción al análisis bioinformático aplicado al diagnóstico*_
 
 ### MOLECULAR DAGNOSTICS S.A de C.V.
-CEO: *Dra. Fabiola Hernández-Martínez*
+CEO: **Dra. Fabiola Hernández-Martínez**
+
 EGRESADA DE ENCB-IPN.
 
 #### Profesor invitado:
