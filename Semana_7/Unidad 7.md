@@ -14,7 +14,7 @@ Su objetivo central es **transformar datos biológicos en conocimiento útil**, 
 - Una de las primeras bases de datos fue creada por **Margaret Dayhoff** en 1965, llamada **Atlas of Protein Sequence and Structure**, que recopilaba secuencias de proteínas conocidas.
 - Se desarrollaron los primeros algoritmos para comparar secuencias, como el **algoritmo de Needleman-Wunsch (1970)** para alineamientos globales.
 - Durante esta etapa, los datos eran aún manejables de forma manual o con programas muy básicos.
- figura1.jpeg
+  !(figura1)[figura1.jpeg]
 
 ---
 
