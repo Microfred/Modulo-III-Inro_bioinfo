@@ -1,7 +1,7 @@
 #  *BIOLOGÍA MOLECULAR APLICADA AL DIAGNÓSTICO
 Molecular Diagnostics. S.A de C.V.
 
-##_*MODULO III: Introducción al análisis bioinformático aplicado al diagnóstico*_
+## _*MODULO III: Introducción al análisis bioinformático aplicado al diagnóstico*_
 
 ### MOLECULAR DAGNOSTICS S.A de C.V.
 CEO: Dra Fabiola Hernández-Martínez
