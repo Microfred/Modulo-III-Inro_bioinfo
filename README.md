@@ -23,27 +23,30 @@ Este material está diseñado para principiantes, por lo que no se requiere expe
 
 ---
 
-### **Módulo 1: ¿Qué es la Bioinformática?**
+### **Semana 7: ¿Qué es la Bioinformática? y sus aplicaciones en el diagnóstico**
 
-Este módulo te introduce al mundo de la bioinformática y su importancia.
+Este módulo te introduce al mundo de la bioinformática y su importancia genral y clínica.
 
-* **1.1. Origen y Definición:** Exploramos cómo la bioinformática surgió como una disciplina para manejar la enorme cantidad de datos biológicos generados por proyectos como el del Genoma Humano.
-* **1.2. Conceptos Fundamentales de Biología:** Hacemos un repaso de las bases de la biología molecular: **ADN**, **ARN** y **proteínas**. Entender el **Dogma Central de la Biología** es clave.
-* **1.3. Las Bases de Datos Biológicas:** Conoce las "bibliotecas" digitales que almacenan toda la información genética del mundo.
-
+* **1.1. Origen y Definición:** Exploramos cómo la bioinformática surgió como una disciplina para manejar la enorme cantidad de datos biológicos generados por proyectos de secuenciación masiva como el del Genoma Humano.
+* **1.2. Conceptos Fundamentales de Biología:** Hacemos un repaso de las bases de la biología molecular, es decir, el dogma central de la Biología Molecular: **ADN** -> **ARN** y -> **proteínas**. Entender ésto es **clave**.
+* **1.3. Obtención de una secuencia de DNA:** ¿Cómo obtengo una secuencia de DNA?. ¿Cónoce a *SANGER*?. Etapa fundamental para obtener una secuencia de DNA.
+* **1.4. Tipos de datos moleculares:** secuencias génicas, secuencias genómicas, transcriptómicas y metagenómicas.
+* **1.5. Formatos de archivo más comunes:** .fasta, .ab1, .abi, .aln, .GenBank, .fastq.gz
+* **1.5. Las Bases de Datos Biológicas:** Conoce las "bibliotecas" digitales que almacenan toda la información genética del mundo.
+  
 ---
 
-### **Módulo 2: Explorando las Bases de Datos**
+### **Semana 7-8: Explorando las Bases de Datos**
 
-Aquí aprenderás a navegar y extraer información de las bases de datos biológicas.
+Aquí aprenderás a navegar y extraer información de las bases de datos biológicas y el uso de diferentes hherramientas bioinformáticas.
 
 * **2.1. Búsqueda y Recuperación de Secuencias:** Te familiarizarás con formatos comunes como **FASTA** y bases de datos esenciales como **NCBI** y **UniProt**.
 * **2.2. Alineamiento de Secuencias:** Aprenderás a usar **BLAST**, la herramienta más popular para comparar secuencias de ADN o proteínas e identificar similitudes.
 * **Taller Práctico:** Realiza búsquedas de secuencias y alineamientos básicos para encontrar genes y proteínas similares.
-
+* **Herramientas:** [Seaview](https://evomics.org/resources/software/bioinformatics-software/seaview/), [ClustalX](https://evomics.org/resources/software/bioinformatics-software/clustal-x/), [FinchTV](https://digitalworldbiology.com/FinchTV), [JmodelTest](https://github.com/ddarriba/jmodeltest2), [Figtree](https://tree.bio.ed.ac.uk/software/figtree/)
 ---
 
-### **Módulo 3: Análisis de Datos Genómicos**
+### **Semana 8-9: Análisis de Datos Genómicos**
 
 En este módulo, te centrarás en el análisis de secuencias de ADN.
 
@@ -53,7 +56,7 @@ En este módulo, te centrarás en el análisis de secuencias de ADN.
 
 ---
 
-### **Módulo 4: Análisis de Proteínas**
+### **Semana 9-10: Análisis de Proteínas**
 
 Este módulo se enfoca en las proteínas, la estructura y función.
 
@@ -63,7 +66,7 @@ Este módulo se enfoca en las proteínas, la estructura y función.
 
 ---
 
-### **Módulo 5: Herramientas y Siguientes Pasos**
+### **Semana 10: Herramientas y Siguientes Pasos**
 
 Este módulo te introduce a la programación y a las perspectivas futuras.
 
