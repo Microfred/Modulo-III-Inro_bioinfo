@@ -8,7 +8,7 @@ Su objetivo central es **transformar datos biológicos en conocimiento útil**, 
 **Repaso**
 Dogma central de DNA ¿quién se acuerda?
 
-[figura3.jpeg](figura3jpeg)
+![figura3.jpeg](figura3jpeg)
 
 
 ¿y de la PCR?...
