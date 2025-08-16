@@ -46,7 +46,7 @@ Dogma central de DNA ¿quién se acuerda?
 ---
 
 ### 🔹 Era de la secuenciación masiva (NGS, desde 2005 en adelante)
-- Tras el PGH, la biología entró en la era de la **secuenciación de nueva generación (Next Generation Sequencing, NGS)**.
+- Tras el Proyecto del Genóma Humano (PGH), la biología entró en la era de la **secuenciación de nueva generación (Next Generation Sequencing, NGS)**.
 - Estas tecnologías permitieron **secuenciar genomas completos en días**, generando terabytes de datos.
 - Esto expandió la bioinformática más allá de la genómica humana, hacia la **metagenómica, transcriptómica, proteómica y biología de sistemas**.
 - Hoy en día, la bioinformática es un pilar en áreas como:
@@ -68,7 +68,7 @@ Dogma central de DNA ¿quién se acuerda?
 - **Con el PGH**: se necesitó analizar miles de genes de manera simultánea.
 - **Hoy**: podemos estudiar **millones de secuencias** en una sola corrida de secuenciación, gracias a la bioinformática.
 
-👉 Sin bioinformática, el conocimiento derivado de proyectos como el **Genoma Humano**, el **Earth Microbiome Project** o el **Proyecto 1000 Genomas** sería prácticamente inalcanzable.
+👉 Sin bioinformática, el conocimiento derivado de proyectos como el **[Genoma Humano](https://www.genome.gov/human-genome-project)**, el **[Earth Microbiome Project](https://earthmicrobiome.org/)** o el **[Proyecto 1000 Genomas](https://www.internationalgenome.org/)** sería prácticamente inalcanzable.
 
 ---
 
