@@ -53,6 +53,18 @@ Dogma central de DNA ¿quién se acuerda?
   - **Medicina personalizada** 🧬 (identificación de mutaciones en pacientes).
   - **Agricultura y biotecnología** 🌱 (mejora genética de cultivos y microorganismos).
   - **Ecología** 🌍 (estudio de microbiomas y biodiversidad).
+  - 
+| Tecnología              | Año    | Principio Técnico                 | Longitud de Lectura | Ventajas                                                                 | Desventajas                                                                 |
+|-------------------------|--------|-----------------------------------|---------------------|--------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| **Sanger**              | 1977   | Terminadores de cadena            | 600-1000 bp         | Alta precisión (>99.99%), ideal para validación                           | Muy lento, alto costo por muestra, bajo rendimiento                         |
+| **Illumina**            | 2006   | Síntesis reversible (NGS)         | 50-300 bp           | Alto rendimiento, bajo costo por base, precisión ~99.9%                  | Lecturas cortas, errores en regiones homopoliméricas                        |
+| **Ion Torrent**         | 2010   | Detección de iones (NGS)          | 200-600 bp          | Rapidez (2-4 hrs), sin óptica                                             | Alta tasa de errores en homopolímeros, rendimiento moderado                 |
+| **PacBio SMRT**         | 2011   | Secuenciación en tiempo real (TGS) | 10-25 kb            | Lecturas ultra largas, detección directa de modificaciones epigenéticas   | Alto costo inicial, tasa de error bruta ~15% (corregible)                   |
+| **Oxford Nanopore**     | 2014   | Nanoporos (TGS)                   | >100 kb             | Portátil (MinION), secuenciación en tiempo real, muestra cruda            | Alta tasa de error (5-20%), requiere calibración compleja                   |
+| **Illumina NovaSeq X**  | 2022   | Patrones de flujo (NGS avanzado)  | 50-300 bp           | 16 TB por corrida, ~$200 por genoma humano                               | Lecturas cortas, no detecta modificaciones epigenéticas                     |
+| **PacBio Revio**        | 2023   | HiFi mejorado (TGS)               | 15-25 kb            | Precisión Q30 (>99.9%) con lecturas largas                               | Alto costo por equipo (>$1M)                                                |
+| **Element AVITI**       | 2024   | Microfluídica 2D (NGS)            | 100-600 bp          | 1 genoma humano/2.5 hrs, bajo consumo reactivos                          | Limitada adopción clínica actual                                            |
+| **Nanopore PoreSense**  | 2025   | Nanoporos mejorados (TGS)         | >200 kb             | Secuenciación directa de proteínas, tiempo real con IA integrada         | Precisión variable según muestra (90-98%)                                   |
 
 ---
 
@@ -63,7 +75,8 @@ Dogma central de DNA ¿quién se acuerda?
 
 ---
 
-## 📌 Ejemplo Didáctico para tu curso
+## 📌 Algunas características que se pueden destacar de la bioinformática:
+
 - **Antes del PGH**: los científicos podían estudiar un solo gen o proteína de manera individual.
 - **Con el PGH**: se necesitó analizar miles de genes de manera simultánea.
 - **Hoy**: podemos estudiar **millones de secuencias** en una sola corrida de secuenciación, gracias a la bioinformática.
