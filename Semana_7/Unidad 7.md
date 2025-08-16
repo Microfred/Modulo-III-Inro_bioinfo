@@ -5,6 +5,14 @@
 La **bioinformática** es una disciplina interdisciplinaria que combina **biología, informática, matemáticas y estadística** con el fin de **almacenar, analizar e interpretar datos biológicos**.
 Su objetivo central es **transformar datos biológicos en conocimiento útil**, permitiendo descubrir patrones, relaciones y mecanismos que no serían evidentes sin la ayuda de herramientas computacionales.
 
+**Repaso**
+Dogma central de DNA ¿quién se acuerda?
+
+[figura3.jpeg](figura3jpeg)
+
+
+¿y de la PCR?...
+
 ---
 
 ## 📌 Contexto Histórico del Origen
