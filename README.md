@@ -1,5 +1,5 @@
 #  *BIOLOGÍA MOLECULAR APLICADA AL DIAGNÓSTICO
-Molecular Diagnostics. S.A de C.V.
+[Molecular Diagnostics](https://www.moleculardiagnostics.com.mx/). S.A de C.V.
 
 ## _*MODULO III: Introducción al análisis bioinformático aplicado al diagnóstico*_
 
