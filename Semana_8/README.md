@@ -72,12 +72,20 @@ Así sabemos dónde poner los huecos
 Secuencias: "AG" y "AAG"
 
 Tabla resultante:
+### Ejemplo de matriz de alineamiento
 
-text
-    A   A   G
-  0 ┃-1 ┃-2 ┃-3
-A -1┃ 1 ┃ 0 ┃-1
-G -2┃ 0 ┃ 0 ┃ 1
+Secuencias a alinear:  
+- Horizontal: `A A G`  
+- Vertical: `A G`  
+
+Matriz de puntuación (con penalización por huecos):
+
+|   |   | A | A | G |
+|---|---|---|---|---|
+|   | 0 | -1 | -2 | -3 |
+| A | -1 |  1 |  0 | -1 |
+| G | -2 |  0 |  0 |  1 |
+
 
 Mejor alineación:
 
