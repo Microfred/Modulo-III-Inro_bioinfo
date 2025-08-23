@@ -177,7 +177,7 @@ Needleman-Wunsch: Alinea secuencias completas.
 
 ### 3.2 Ejercicio 1 (Global)
 
-1. Abrir **EMBOSS Needle**.  
+1. Abrir **[EMBOSS Needle](https://www.ebi.ac.uk/Tools/psa/emboss_needle/)**.
 2. Introducir dos secuencias de genes ortólogos (ej. *cox1* humano vs *cox1* chimpancé), **¿Qué otro gen?**.  
 3. Observar:
    - Longitud del alineamiento.
@@ -194,7 +194,6 @@ Needleman-Wunsch: Alinea secuencias completas.
 4. Observar:
    - Regiones alineadas.
    - Valores de e-value *(número esperado de alineamientos por azar; mientras más bajo sea el E-value, más significativo es el alineamiento, Un E-value de 0.001 indica que hay una probabilidad muy baja (1 en 1000))*.
-
    - Porcentaje de identidad local.
 
 ---
