@@ -24,7 +24,6 @@ Permite:
 Existen dos enfoques principales:
 
 - **Alineamiento Global**: compara secuencias completas.
-_Ejemplo:_ 
 - **Alineamiento Local**: compara subsecuencias altamente similares.
 
 ---
@@ -39,7 +38,7 @@ _Ejemplo:_
   - Se desea comparar genes ortólogos*.
   - Ejemplo: comparar el gen *cox1* de dos especies cercanas.
 
-*Ortólogos: genes que derivan de un ancestro en común y tiene la misma funcion en diferentes organismos.
+*Ortólogos: genes que derivan de un ancestro en común y tienen la misma función en diferentes organismos.
 
 **Ejemplo simplificado:**
 
@@ -162,6 +161,7 @@ Needleman-Wunsch: Alinea secuencias completas.
 ## 3. Ejemplos prácticos (30 min)
 
 ### 3.1 Herramientas en línea
+
 - **NCBI BLAST** (local alignment):  
   👉 https://blast.ncbi.nlm.nih.gov/  
   
@@ -170,8 +170,10 @@ Needleman-Wunsch: Alinea secuencias completas.
     
 - **EMBOSS Water** (local alignment):  
   👉 https://www.ebi.ac.uk/Tools/psa/emboss_water/
-
+###¿cómo descargamos secuenciasde DNA/AA de [NCBI](https://www.ncbi.nlm.nih.gov/)?
 ---
+### 3.1.1 Descarga 10 secuencias de gene ortólogos en formato fasta... :thinking:
+
 
 ### 3.2 Ejercicio 1 (Global)
 
