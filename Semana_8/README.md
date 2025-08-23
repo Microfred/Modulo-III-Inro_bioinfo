@@ -255,3 +255,30 @@ El uso de BLAST permitió identificar genes de resistencia a antibióticos en ba
 - NCBI BLAST Documentation 👉 https://blast.ncbi.nlm.nih.gov/Blast.cgi  
 
 ---
+
+## 8. 🧬 Herramientas de Alineamiento y Bioinformática
+
+## 🔹 Alineamiento de secuencias
+
+- 🧪 [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/) – Búsqueda de similitudes locales en secuencias de ADN, ARN o proteínas.
+- 📏 [EMBOSS Needle](https://www.ebi.ac.uk/Tools/psa/emboss_needle/) – Alineamiento global de dos secuencias.
+- 🔍 [EMBOSS Water](https://www.ebi.ac.uk/Tools/psa/emboss_water/) – Alineamiento local de dos secuencias.
+- 🧩 [Clustal Omega](https://www.ebi.ac.uk/Tools/msa/clustalo/) – Alineamiento múltiple de secuencias.
+
+## 🌐 Bases de datos
+
+- 🧬 [NCBI GenBank](https://www.ncbi.nlm.nih.gov/genbank/) – Base de datos de secuencias de ADN y ARN.
+- 🧫 [UniProt](https://www.uniprot.org/) – Base de datos de proteínas y anotaciones funcionales.
+- 🗂️ [Ensembl](https://www.ensembl.org/) – Genomas de eucariotas y anotaciones genómicas.
+- 🌳 [UCSC Genome Browser](https://genome.ucsc.edu/) – Visualización de genomas y anotaciones.
+
+## 🖥️ Herramientas de análisis genómico y metagenómico
+
+- 🧩 [QIIME2](https://qiime2.org/) – Análisis de datos de metabarcoding y metagenómica.
+- 🌿 [MEGA](https://www.megasoftware.net/) – Análisis filogenético y construcción de árboles evolutivos.
+- 💻 [Galaxy](https://usegalaxy.org/) – Plataforma web de análisis bioinformático reproducible.
+
+## 📚 Referencias y tutoriales
+
+- 📖 [EMBOSS Documentation](http://emboss.sourceforge.net/documentation.html) – Manual completo de EMBOSS.
+- 📝 [NCBI BLAST Tutorials](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs) – Guías paso a paso para usar BLAST.
