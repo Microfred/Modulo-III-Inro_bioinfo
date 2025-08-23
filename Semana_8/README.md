@@ -1,5 +1,4 @@
 
-
 # Clase: Principios de Alineamiento de Secuencias (Local vs Global)
 
 ## Objetivo de la clase
@@ -44,14 +43,50 @@ _Ejemplo:_
 
 **Ejemplo simplificado:**
 
-```
-Secuencia A: ATGCTAGC
-Secuencia B: ATG--AGC
-```
+Algoritmo de Needleman-Wunsch Explicado Sencillamente
+📘 ¿Qué es?
+Es un método para comparar dos secuencias (como ADN o proteínas) y encontrar la mejor forma de alinearlas, incluso si necesitan espacios vacíos (huecos).
 
+
+🧩 ¿Cómo funciona? (En 3 pasos)
+1. Crear una tabla
+Se hace una tabla donde:
+Arriba va una secuencia (ej: A G)
+Izquierda va la otra (ej: A A G)
+La primera fila y columna se llenan con números negativos (-1, -2, -3...) por los "huecos"
+
+2. Llenar la tabla
+Para cada casilla:
+
+✅ Si las letras coinciden: Sumar puntos (+1)
+❌ Si no coinciden: Restar puntos (-1)
+➖ Por huecos: Restar puntos (-1)
+Siempre se elige la opción con más puntos
+
+3. Seguir el camino de regreso
+
+Desde la esquina inferior derecha, se sigue el camino de más puntos hacia atrás
+Así sabemos dónde poner los huecos
+
+👀 **Ejemplo Súper Sencillo**
+Secuencias: "AG" y "AAG"
+
+Tabla resultante:
+
+text
+    A   A   G
+  0 ┃-1 ┃-2 ┃-3
+A -1┃ 1 ┃ 0 ┃-1
+G -2┃ 0 ┃ 0 ┃ 1
+Mejor alineación:
+
+text
+A - G   (con un hueco)
+A A G
 ---
 
 ### 2.2 Alineamiento Local
+
 - Busca subsecuencias con similitud significativa.
 - Algoritmo clásico: **Smith–Waterman (1981)**.
 - Adecuado cuando:
@@ -65,7 +100,42 @@ Secuencia B: ATG--AGC
 Secuencia A: ATGCTAGC
 Secuencia B:   GCTAG
 ```
+El algoritmo Smith-Waterman es como el "buscador de fragmentos iguales" entre dos secuencias (como ADN o proteínas).
 
+🧩 En esencia:
+No compara las secuencias completas, solo busca trozos pequeños que sean idénticos o muy parecidos.
+
+Es como encontrar párrafos copiados entre dos libros, sin importar el resto del contenido.
+
+📌 Pasos muy simples:
+Crea una tabla con una secuencia arriba y otra a la izquierda.
+
+Rellena la tabla:
+Si las letras coinciden → suma puntos (ej: +2).
+Si no coinciden → resta puntos (ej: -1).
+Si el puntaje es negativo → pon 0 (¡aquí está la clave!).
+El número más alto en la tabla indica el inicio del fragmento igual.
+Sigue el camino hacia atrás desde ese número hasta encontrar un 0 → eso te da el fragmento común.
+
+👀 Ejemplo:
+Secuencias: "TGCT" y "ACT"
+Encuentra: Que "CT" es común.
+Alineación:
+
+text
+T G C T  
+- - C T  
+
+🎯 ¿Para qué sirve?
+*Encontrar genes similares en diferentes especies.
+*Identificar dominios funcionales en proteínas.
+*Detectar plagio en textos (en bioinformática, ¡claro!).
+
+🔍 Smith-Waterman vs Needleman-Wunsch:
+
+Smith-Waterman: Busca similitudes locales (fragmentos, trocitos).
+
+Needleman-Wunsch: Alinea secuencias completas.
 ---
 
 ### 2.3 Diferencias clave
@@ -85,16 +155,19 @@ Secuencia B:   GCTAG
 ### 3.1 Herramientas en línea
 - **NCBI BLAST** (local alignment):  
   👉 https://blast.ncbi.nlm.nih.gov/  
+  
 - **EMBOSS Needle** (global alignment):  
-  👉 https://www.ebi.ac.uk/Tools/psa/emboss_needle/  
+  👉 https://www.ebi.ac.uk/Tools/psa/emboss_needle/
+    
 - **EMBOSS Water** (local alignment):  
   👉 https://www.ebi.ac.uk/Tools/psa/emboss_water/
 
 ---
 
 ### 3.2 Ejercicio 1 (Global)
+
 1. Abrir **EMBOSS Needle**.  
-2. Introducir dos secuencias de genes ortólogos (ej. *cox1* humano vs *cox1* chimpancé).  
+2. Introducir dos secuencias de genes ortólogos (ej. *cox1* humano vs *cox1* chimpancé), **¿Qué otro gen?**.  
 3. Observar:
    - Longitud del alineamiento.
    - Porcentaje de identidad.
@@ -103,12 +176,14 @@ Secuencia B:   GCTAG
 ---
 
 ### 3.3 Ejercicio 2 (Local)
+
 1. Abrir **BLASTp** (proteínas).  
 2. Introducir una proteína con dominio conocido (ej. *p53* humano).  
 3. Analizar los dominios conservados en especies distintas.  
 4. Observar:
    - Regiones alineadas.
-   - Valores de e-value.
+   - Valores de e-value *(número esperado de alineamientos por azar; mientras más bajo sea el E-value, más significativo es el alineamiento, Un E-value de 0.001 indica que hay una probabilidad muy baja (1 en 1000))*.
+
    - Porcentaje de identidad local.
 
 ---
@@ -124,7 +199,7 @@ Secuencia B:   GCTAG
 
 ---
 
-## 4. Discusión y aplicaciones (15 min)
+## 4. Discusión y aplicaciones (≈15 min)
 
 - **Global**:  
   - Comparación evolutiva de genomas completos.  
